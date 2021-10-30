@@ -6,6 +6,10 @@ Métodos Empíricos - obtemos o tempo de execução através da execução propr
 Métodos Analíticos - obtemos uma ordem de grandeza do tempo execução através de expressões matemáticas que traduzam o comportamento de um algoritmo.
 
 
+A medida de ver independente de fatores:
+ - Linguagem de programação 
+ - Máquina que será executado
+
 Ou seja a idéia central
 tempo de execução = número de passos efetuados pelo algoritmo
 
