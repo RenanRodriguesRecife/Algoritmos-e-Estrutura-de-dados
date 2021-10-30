@@ -27,6 +27,30 @@ Definição (notação Θ)  =  tempo de execução ótimo.
 
 No geral sempre estamos procurando saber o comportamento do algoritmo no seu pior caso
 
+
+Classes de comportamento assintótico
+
+• O(1): complexidade constante. Tempo de execução independe do
+tamanho da entrada.
+• O(log n): complexidade logarítmica. Ocorre em algoritmos que
+mapeiam o problema maior em subproblemas
+• O(n): complexidade linear. Algoritmos que varrem uma lista de
+tamanho n
+• O(n log n): ocorre em algoritmos que quebram o problema em
+subproblemas, resolve-os independentemente, e depois reuni as
+soluções
+• O(n^2): complexidade quadrática. Algoritmos com dois laços
+aninhados (processa elementos de uma lista aos pares)
+• O(n^3): complexidade cúbica. Algoritmos com três laços aninhados
+(problemas de algebra linear, mult. matrizes). Úteis apenas para
+problemas de tamanho pequeno (dobro da entrada = 8x tempo)
+• O(2^n): complexidade exponencial. Algoritmos que processam
+subconjuntos de um conjunto com n elementos (normalmente busca
+exaustiva)
+• O(n!): complexidade fatorial. Algoritmos que processam todas as
+permutações de uma sequência de n elementos
+
+
 https://www.youtube.com/watch?v=X_6LTVkymVM&list=PLGlEDy3kkSSNTESjeBOJZ9NWG46r_FJAO&index=1&t=19s
 
 https://www.youtube.com/watch?v=pwn4y78MZFw&list=PLGlEDy3kkSSNTESjeBOJZ9NWG46r_FJAO&index=2
