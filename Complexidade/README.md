@@ -1,5 +1,18 @@
 COMPLEXIDADE
 
+Como medir?
+Métodos Empíricos - obtemos o tempo de execução através da execução propriamente dita do algoritmo, considerando-se entradas diversas.
+
+Métodos Analíticos - obtemos uma ordem de grandeza do tempo execução através de expressões matemáticas que traduzam o comportamento de um algoritmo.
+
+
+Ou seja a idéia central
+tempo de execução = número de passos efetuados pelo algoritmo
+
+
+A variável usada para calcular é o tamanho da entrada.
+
+
 As Notações O, Ω e Θ
 
 Definição (notação O)  =  limite superior para o tempo de execução.
