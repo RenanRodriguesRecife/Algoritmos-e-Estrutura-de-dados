@@ -41,3 +41,8 @@ ele = Pessoa("Renato","Pereira")
 ela = Pessoa("Alana","Carla")
 
 print(eu.nome,ele.nome,ela.nome)
+
+
+#A programação orientada a objeto está
+#fundamentada em 3 princípios fundamentais:
+#encapsulamento, herança e polimorfismo
