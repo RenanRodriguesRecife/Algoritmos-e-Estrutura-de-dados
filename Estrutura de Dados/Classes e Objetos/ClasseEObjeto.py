@@ -19,7 +19,7 @@ class Pessoa:
     def __del__(self):
         del self.nome
         del self.sobrenome
-        print "Apagado"
+        print("Apagado")
 
 #para apagar um objeto
 a = Pessoa("carlos","silva")
