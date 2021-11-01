@@ -64,6 +64,7 @@ print(eu.nome,ele.nome,ela.nome)
 # self.__sobrenome
 # def __metodoQualquer():
 
+#OBS:
 #Embora Python oferte um certo controle de visibilidade, esse não é
 #tão rigoroso quanto o de outras linguagens orientadas a objetos
 # Membros privados continuam podendo ser acessados por membros
@@ -73,3 +74,11 @@ print(eu.nome,ele.nome,ela.nome)
 # obj._NomeClasse__ID
 # a._A__foo()
 #• O objetivo é evitar o acesso não intencional aos membros privados
+
+
+
+# -- Herança --
+#
+#versões mais especializadas de algumas classes
+#Através da herança pode se derivar classes mais especializadas
+#
