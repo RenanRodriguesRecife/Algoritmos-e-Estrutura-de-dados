@@ -46,3 +46,30 @@ print(eu.nome,ele.nome,ela.nome)
 #A programação orientada a objeto está
 #fundamentada em 3 princípios fundamentais:
 #encapsulamento, herança e polimorfismo
+
+# -- Encapsulamento --
+#
+#Controla aquilo que ficará ou não disponível aos usuários
+#Garante o controle de visibilidade dos membros de uma classe
+#Permite a abstração de detalhes e foco apenas naquilo que interessa
+#Em geral, os atributos da classe são ocultados do usuário, os 
+#quais devem ser acessados através de uma interface definida por métodos.
+#
+#Em Python existe dois níveis de acesso aos membros de uma classe:
+#Público e Privado
+#por padrão, todos os membros de uma classe em python são públicos
+#os membros privados são definidos através de dois underscores à frente
+#do identificador
+# self.__nome
+# self.__sobrenome
+# def __metodoQualquer():
+
+#Embora Python oferte um certo controle de visibilidade, esse não é
+#tão rigoroso quanto o de outras linguagens orientadas a objetos
+# Membros privados continuam podendo ser acessados por membros
+#externos à classe
+# Membros privados podem ser acessado fora da classe da seguinte
+#forma:
+# obj._NomeClasse__ID
+# a._A__foo()
+#• O objetivo é evitar o acesso não intencional aos membros privados
