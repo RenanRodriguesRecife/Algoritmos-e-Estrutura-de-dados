@@ -6,6 +6,17 @@ Métodos Empíricos - obtemos o tempo de execução através da execução propr
 
 Métodos Analíticos - obtemos uma ordem de grandeza do tempo execução através de expressões matemáticas que traduzam o comportamento de um algoritmo.
 
+Método científico aplicado a análise de
+algoritmos
+Sedgewick:
+• Observar uma característica do fenômeno natural
+• Inferir um modelo/hipótese consistente com as observações
+• Prever eventos usando a hipótese/modelo
+• Verificar as predições com mais experimentos
+• Repetir o processo até que o modelo seja consistente com a realidade
+• Experimentos devem ser reproduzíveis
+• Hipótese deve ser falseável
+• Fenômeno = desempenho do computador em uma máquina real
 
 A medida de ver independente de fatores:
  - Linguagem de programação 
@@ -13,7 +24,6 @@ A medida de ver independente de fatores:
 
 Ou seja a idéia central
 tempo de execução = número de passos efetuados pelo algoritmo
-
 
 A variável usada para calcular é o tamanho da entrada.
 
