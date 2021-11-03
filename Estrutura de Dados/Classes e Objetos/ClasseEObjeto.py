@@ -81,4 +81,19 @@ print(eu.nome,ele.nome,ela.nome)
 #
 #versões mais especializadas de algumas classes
 #Através da herança pode se derivar classes mais especializadas
-#
+#A classe principal é chamada de superclasse
+#A classe derivada é chamada de subclasse
+
+#Objetos de uma subclasse possuem todos os atributos e métodos da
+#classe mãe (superclasse) e outros específicos da subclasse
+
+#Herança
+
+class Empregado:
+    def __init__(self, nome, matricula):
+        self.__nome = nome  
+        self.__matricula = matricula
+    
+class Gerente(Empregado):
+     Empregado.__init__(self,nome,matricula)
+     self.gerencia = gerencia
